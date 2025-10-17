@@ -1,21 +1,4 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "pathfinding.h"
-#include "queues.h"
-
-#ifndef NUM_DIRECTIONS
-#define TOP 0
-#define RIGHT 1
-#define BOTTOM 2
-#define LEFT 3
-#define NUM_DIRECTIONS 4
-#endif
-
-typedef struct point_s
-{
-	int x;
-	int y;
-} point_t;
 
 /**
  * isValid - Checks if the position is valid and hasn't been visited.
