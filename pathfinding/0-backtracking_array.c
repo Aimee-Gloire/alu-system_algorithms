@@ -1,4 +1,6 @@
 #include "pathfinding.h"
+#include "queues.h"
+#include <cstddef>
 
 /**
  * isValid - Checks if the position is valid and hasn't been visited.
